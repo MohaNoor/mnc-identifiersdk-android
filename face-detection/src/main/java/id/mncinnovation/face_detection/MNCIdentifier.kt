@@ -14,7 +14,7 @@ object MNCIdentifier {
     internal var detectionMode = listOf(
         DetectionMode.HOLD_STILL,
         
-        DetectionMode.BLINK
+        DetectionMode.BLINK,
         DetectionMode.SMILE
     )
 
