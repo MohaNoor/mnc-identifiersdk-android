@@ -180,6 +180,10 @@ class LivenessDetectionActivity : BaseCameraActivity(), LivenessDetectionListene
                 tvInstruction.text = getString(R.string.liveness_please_blink)
                 speak(getString(R.string.liveness_please_blink))
             }
+            DetectionMode.SMILE -> {
+                tvInstruction.text = getString(R.string.liveness_please_smile)
+                speak(getString(R.string.liveness_please_smile))
+            }
            
         }
     }
