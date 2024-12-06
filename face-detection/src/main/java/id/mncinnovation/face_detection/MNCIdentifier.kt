@@ -15,7 +15,7 @@ object MNCIdentifier {
         DetectionMode.HOLD_STILL,
         
         DetectionMode.BLINK
-        
+        DetectionMode.SMILE
     )
 
     @JvmStatic
